@@ -91,9 +91,11 @@ $primary: #323D69;
     padding:7px;
     font-size: 1em;
     flex:1 1 auto;
+    -webkit-appearance: none;
     @media(max-width: 600px) {
     width:100%;
     margin-bottom: 15px;
+    -webkit-appearance: none;
     }
   }
   input[type="submit"] {
@@ -106,9 +108,11 @@ $primary: #323D69;
     border-radius: 5px;
     border:1px solid $primary;
     cursor: pointer;
+    -webkit-appearance: none;
     @media(max-width: 600px) {
     width:100%;
     margin-bottom: 15px;
+    -webkit-appearance: none;
     }
   }
   select {
@@ -120,11 +124,13 @@ $primary: #323D69;
     color:#fff;
     margin: 0 7px;
     border-radius: 5px;
+    -webkit-appearance: none;
     @media(max-width: 600px) {
     width:100%;
     margin-bottom: 15px;
     margin-left: 0;
     margin-right: 0;
+    -webkit-appearance: none;
     }
   }
 }
